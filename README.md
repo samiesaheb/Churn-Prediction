@@ -1,14 +1,56 @@
 # churn-prediction
 customer churn prediction for dataset found in the kaggle customer churn prediction 2020 competition
 
+Summary statistics of train dataset:
+       account_length  number_vmail_messages  total_day_minutes  \
+count     4250.000000            4250.000000        4250.000000   
+mean       100.236235               7.631765         180.259600   
+std         39.698401              13.439882          54.012373   
+min          1.000000               0.000000           0.000000   
+25%         73.000000               0.000000         143.325000   
+50%        100.000000               0.000000         180.450000   
+75%        127.000000              16.000000         216.200000   
+max        243.000000              52.000000         351.500000   
+
+       total_day_calls  total_day_charge  total_eve_minutes  total_eve_calls  \
+count      4250.000000       4250.000000        4250.000000      4250.000000   
+mean         99.907294         30.644682         200.173906       100.176471   
+std          19.850817          9.182096          50.249518        19.908591   
+min           0.000000          0.000000           0.000000         0.000000   
+25%          87.000000         24.365000         165.925000        87.000000   
+50%         100.000000         30.680000         200.700000       100.000000   
+75%         113.000000         36.750000         233.775000       114.000000   
+max         165.000000         59.760000         359.300000       170.000000   
+
+       total_eve_charge  total_night_minutes  total_night_calls  \
+count       4250.000000          4250.000000        4250.000000   
+mean          17.015012           200.527882          99.839529   
+std            4.271212            50.353548          20.093220   
+min            0.000000             0.000000           0.000000   
+25%           14.102500           167.225000          86.000000   
+50%           17.060000           200.450000         100.000000   
+75%           19.867500           234.700000         113.000000   
+max           30.540000           395.000000         175.000000   
+
+       total_night_charge  total_intl_minutes  total_intl_calls  \
+count         4250.000000         4250.000000       4250.000000   
+mean             9.023892           10.256071          4.426353   
+std              2.265922            2.760102          2.463069   
+min              0.000000            0.000000          0.000000   
+25%              7.522500            8.500000          3.000000   
+50%              9.020000           10.300000          4.000000   
+75%             10.560000           12.000000          6.000000   
+max             17.770000           20.000000         20.000000   
+
+       total_intl_charge  number_customer_service_calls  
+count        4250.000000                    4250.000000  
+mean            2.769654                       1.559059  
+std             0.745204                       1.311434  
+min             0.000000                       0.000000  
+25%             2.300000                       1.000000  
+50%             2.780000                       1.000000  
+75%             3.240000                       2.000000  
+max             5.400000                       9.000000 
+
 ![Histograms](histograms.png)
 
-<details>
-  <summary>Summary Statistics</summary>
-
-  <br>
-
-  <p align="center">
-    <img src="summary_table.html">
-  </p>
-</details>
